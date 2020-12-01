@@ -18,6 +18,6 @@ contract ThisTest{
     function getBalance1(address account) view returns(uint){
         
         return account.balance;
-    }
+    } 
     
 }
