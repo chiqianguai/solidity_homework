@@ -1,4 +1,5 @@
 pragma solidity ^0.4.0;
+
 contract BooleanTest{
 bool _a;
 function getBool() public view returns(bool){
