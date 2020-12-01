@@ -1,4 +1,5 @@
 pragma solidity ^0.4.0;
+
 contract BytesToString{
     bytes name=new bytes(2);
     function init() {
