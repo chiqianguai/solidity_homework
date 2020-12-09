@@ -1,0 +1,12 @@
+pragma solidity ^0.4.0;
+
+contract NestedMapping{
+    
+    mapping(uint => mapping(uint => mapping(uint => string))) public map;
+    
+    function test() {
+        
+        map[0][1][2] = "zhengjianxun";
+    }
+    
+} // this code show an example of nested mapping
