@@ -1,0 +1,51 @@
+pragma solidity ^0.4.0;
+
+contract grandfather{
+    
+    uint public gudong = 200;
+    
+    function zhongdi() returns(string){
+        
+        return "Heiyoyo...";
+    }
+}
+
+contract father is grandfather{
+    
+    uint public money = 10000;
+    
+    function dahan() returns(string){
+        
+        return "Zzzzz.....";
+        
+    }
+
+}
+
+contract son is father{
+    
+    function getMoney() returns(uint){
+        
+        return money;
+        
+    }// son inherits variable money from father
+    
+    function maobing() returns(string){
+        
+        return dahan();
+        
+    }// son inherits function dahan() from father
+    
+    function getGudong() returns(uint){
+        
+        return gudong;
+        
+    }// gudong is inherited from father from grandfather, it is a case of successive inheritant
+    
+    function work() returns(string){
+        
+        return zhongdi();
+        
+    }// zhongdi() is inherited from father, from grandfather
+    
+}
