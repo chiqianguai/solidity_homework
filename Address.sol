@@ -21,5 +21,5 @@ contract AddressTest{
         
         return myAccount>contractAccount;
         
-    }
+    } 
 }
