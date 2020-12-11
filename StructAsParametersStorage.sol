@@ -25,4 +25,4 @@ contract structTest{
     }
     
 }
-// this example shows struct as function formal parameter, it is a pointer, formal parameter and public variable share the same address
+// this example shows struct as function formal parameter with key word storage, it is a pointer, formal parameter and public variable share the same address
